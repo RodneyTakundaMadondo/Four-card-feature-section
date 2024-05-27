@@ -33,7 +33,7 @@ body{
     display: grid;
     place-items: center;
     padding: 2rem;
-    gap: 1.5rem;
+    gap: 2rem;
     
  }
  
@@ -148,5 +148,36 @@ body{
         top:8rem;
     }
 }
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+
+///TYPOGRAPHY LARGE SCREENS
+@media (min-width:700px){
+    .page-header{
+       
+        &__heading{ 
+           
+            font-size: 2rem;
+
+        }
+        &__heading2{
+            
+            font-size:2rem;
+          
+        } 
+        &__description{ 
+            font-size: 1rem ; 
+         
+        }  
+    }  
+    .content-section{  
+        &__heading{  
+          
+            font-size: 1rem;  
+        }  
+        &__description{  
+            
+            font-size: 1rem; 
+        }  
+    }  
+        } 
+.attribution { font-size: 11px; text-align: center; } 
+.attribution a { color: hsl(228, 45%, 44%); } 
