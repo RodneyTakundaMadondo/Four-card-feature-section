@@ -26,7 +26,7 @@ body {
   display: grid;
   place-items: center;
   padding: 2rem;
-  gap: 1.5rem;
+  gap: 2rem;
 }
 
 .content-section {
@@ -137,6 +137,23 @@ body {
   #supervisor, #calculator {
     position: absolute;
     top: 8rem;
+  }
+}
+@media (min-width: 700px) {
+  .page-header__heading {
+    font-size: 2rem;
+  }
+  .page-header__heading2 {
+    font-size: 2rem;
+  }
+  .page-header__description {
+    font-size: 1rem;
+  }
+  .content-section__heading {
+    font-size: 1rem;
+  }
+  .content-section__description {
+    font-size: 1rem;
   }
 }
 .attribution {
